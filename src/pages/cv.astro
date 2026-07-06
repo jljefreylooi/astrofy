@@ -1,20 +1,53 @@
-<div class="time-line-container mb-10">
-  <TimeLineElement
-    title="Project Manager"
-    subtitle="Jan 2026 – Present at YIZU SHANGZHUANG Sdn Bhd"
-  >
-    Managing retail store renovations for Milk Tea & Coffee shops. Coordinating construction supervision, daily progress tracking, and rapid handling of on-site emergencies.
-  </TimeLineElement>
-  <TimeLineElement
-    title="Maintenance & Project Lead"
-    subtitle="2021 – 2025 at June Air Engineering Sdn Bhd"
-  >
-    Oversaw industrial HVAC and air compressor engineering projects. Directed field teams and executed material budget optimization.
-  </TimeLineElement>
-  <TimeLineElement
-    title="Firefighter (Unit S.T.O.R.M)"
-    subtitle="2019 – 2021 at Jabatan Bomba dan Penyelamat Malaysia"
-  >
-    Deployed on high-risk special rescue missions. Maintained tactical combat readiness and structural crisis management.
-  </TimeLineElement>
-</div>
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Resume" sideBarActiveItemID="cv">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experience</div>
+  </div>
+
+  <div class="relative border-l border-base-300 ml-3 my-5">
+    <!-- Role 1: Project Manager -->
+    <div class="mb-10 ml-6">
+      <span class="absolute flex items-center justify-center w-3 h-3 bg-primary rounded-full -left-[6px] mt-1.5"></span>
+      <h3 class="flex items-center mb-1 text-lg font-semibold text-base-content">
+        Project Manager
+      </h3>
+      <span class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+        Jan 2026 – Present | YIZU SHANGZHUANG Sdn Bhd
+      </span>
+      <p class="mb-4 text-base font-normal text-base-content/80">
+        Managing retail store renovations for Milk Tea & Coffee shops. Coordinating construction supervision, daily progress tracking, and rapid handling of on-site emergencies.
+      </p>
+    </div>
+
+    <!-- Role 2: Maintenance Lead -->
+    <div class="mb-10 ml-6">
+      <span class="absolute flex items-center justify-center w-3 h-3 bg-primary rounded-full -left-[6px] mt-1.5"></span>
+      <h3 class="mb-1 text-lg font-semibold text-base-content">
+        Maintenance & Project Lead
+      </h3>
+      <span class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+        2021 – 2025 | June Air Engineering Sdn Bhd
+      </span>
+      <p class="text-base font-normal text-base-content/80">
+        Oversaw industrial HVAC and air compressor engineering projects. Directed field teams and executed material budget optimization.
+      </p>
+    </div>
+
+    <!-- Role 3: Firefighter -->
+    <div class="mb-10 ml-6">
+      <span class="absolute flex items-center justify-center w-3 h-3 bg-primary rounded-full -left-[6px] mt-1.5"></span>
+      <h3 class="mb-1 text-lg font-semibold text-base-content">
+        Firefighter (Unit S.T.O.R.M)
+      </h3>
+      <span class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+        2019 – 2021 | Jabatan Bomba dan Penyelamat Malaysia
+      </span >
+      <p class="text-base font-normal text-base-content/80">
+        Deployed on high-risk special rescue missions. Maintained tactical combat readiness and structural crisis management.
+      </p>
+    </div>
+  </div>
+</BaseLayout>
